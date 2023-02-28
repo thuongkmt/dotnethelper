@@ -1,0 +1,12 @@
+D:\MyProject\DotNet\Common.Utility\Common.Utility\bin\Debug\net6.0\Common.Utility.deps.json
+D:\MyProject\DotNet\Common.Utility\Common.Utility\bin\Debug\net6.0\Common.Utility.dll
+D:\MyProject\DotNet\Common.Utility\Common.Utility\bin\Debug\net6.0\Common.Utility.pdb
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\Common.Utility.csproj.AssemblyReference.cache
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\Common.Utility.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\Common.Utility.AssemblyInfoInputs.cache
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\Common.Utility.AssemblyInfo.cs
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\Common.Utility.csproj.CoreCompileInputs.cache
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\Common.Utility.dll
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\refint\Common.Utility.dll
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\Common.Utility.pdb
+D:\MyProject\DotNet\Common.Utility\Common.Utility\obj\Debug\net6.0\ref\Common.Utility.dll
