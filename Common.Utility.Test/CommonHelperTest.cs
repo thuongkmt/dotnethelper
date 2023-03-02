@@ -10,5 +10,14 @@
 
             Assert.Equal("061815", resultTime);
         }
+
+        [Theory]
+        [InlineData("311466", 8)]
+        public void AddLeadingZero_ReturnTrue(string dataString, int length)
+        {
+            var result = CommonHelper.AddLeadingZero(dataString, length);
+
+            Assert.Equal(length, result.Length);
+        }
     }
 }
