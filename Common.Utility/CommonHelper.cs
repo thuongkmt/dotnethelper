@@ -26,7 +26,7 @@ namespace Common.Utility
         {
             if (input.Length <= length)
             {
-                return input.PadLeft(8,'0');
+                return input.PadLeft(length, '0');
             }
             return input;
         }
