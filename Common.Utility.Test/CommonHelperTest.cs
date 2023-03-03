@@ -19,5 +19,14 @@
 
             Assert.Equal(length, result.Length);
         }
+
+        [Theory]
+        [InlineData(2.000)]
+        public void ConvertDecimalToInt_ReturnTrue(decimal dataString)
+        {
+            var result = CommonHelper.ConvertDecimalToInt(dataString);
+
+            Assert.Equal(2, result);
+        }
     }
 }

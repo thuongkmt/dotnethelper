@@ -36,5 +36,25 @@ namespace Common.Utility.Test
             Assert.Equal("2023-02-23", resultDateFormat);
         }
 
+        [Fact]
+        public void FormatDate_ddMMyyyy_forwardSlash_ReturnTrue()
+        {
+            var currentDateTime = DatetimeConverter.ReturnCurrentAESTDateTime();
+            var resultDateFormat = DatetimeConverter.FormatCurrentAESTDate_ddMMyyyy_forwardSlash();
+
+            Assert.Equal(currentDateTime.ToString("dd/MM/yyyy"), resultDateFormat);
+        }
+
+        [Fact]
+        public void CurrentTime_HHmm_Format_ReturnTrue()
+        {
+            var hourMinute = DatetimeConverter.CurrentTime_HHmm_Format();
+        }
+
+        [Fact]
+        public void GetCurrentDay_ReturnTrue()
+        {
+            var dayOfWeek = DatetimeConverter.GetCurrentDayOfWeek();
+        }
     }
 }

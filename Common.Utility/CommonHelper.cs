@@ -30,5 +30,20 @@ namespace Common.Utility
             }
             return input;
         }
+
+        public static string ReplaceCharater(string data, string charaterRemove)
+        {
+            return data.Replace(charaterRemove, "");
+        }
+
+        /// <summary>
+        /// Convert a decimal value to a int data
+        /// </summary>
+        /// <param name="input">string</param>
+        /// <returns>a int value, ex: 90</returns>
+        public static int ConvertDecimalToInt(decimal inputData)
+        {
+            return Convert.ToInt32(inputData);
+        }
     }
 }
