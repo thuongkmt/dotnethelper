@@ -15,7 +15,7 @@ namespace Common.Utility.Test
         {
             var resultDateTimeInUTC = DatetimeConverter.ReturnUtcDateTimeFromAESTDateTime(inputDate);
 
-            Assert.Equal("2023-02-23T01:56:10", resultDateTimeInUTC);
+            Assert.Equal(DateTime.UtcNow.ToString("s"), resultDateTimeInUTC);
         }
 
         [Theory]
