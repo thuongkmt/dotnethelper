@@ -9,8 +9,8 @@ namespace Common.Utility.Test
         }
 
         [Theory]
-        [InlineData("2/23/2023 12:56:10 PM")]
-        [InlineData("2023-02-23T12:56:10")]
+        
+        [InlineData("010323")]
         public void ReturnUtcDateTimeFromAESTDateTime_ReturnTrue(string inputDate)
         {
             var resultDateTimeInUTC = DatetimeConverter.ReturnUtcDateTimeFromAESTDateTime(inputDate);

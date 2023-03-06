@@ -26,7 +26,7 @@ namespace Common.Utility
         public static string ReturnUtcDateTimeFromAESTDateTime(string localAUSDateTime)
         {
             DateTime dateTime;
-            if (!DateTime.TryParse(localAUSDateTime, out dateTime)) return new DateTime().ToUniversalTime().ToString("s");
+            if (!DateTime.TryParse(localAUSDateTime, out dateTime)) return DateTime.UtcNow.ToString("s");
             return TimeZoneInfo.ConvertTimeBySystemTimeZoneId(dateTime, "AUS Eastern Standard Time", "UTC").ToString("s");
         }
 
@@ -76,7 +76,7 @@ namespace Common.Utility
             DateTime formattedDate;
             return DateTime.TryParseExact(documentDate, "yyyyMMdd HH:mm:ss",
                 new System.Globalization.DateTimeFormatInfo(), System.Globalization.DateTimeStyles.None,
-                out formattedDate) ? ReturnUtcDateTimeFromAESTDateTime(formattedDate.ToString()) : new DateTime().ToUniversalTime().ToString("s");
+                out formattedDate) ? ReturnUtcDateTimeFromAESTDateTime(formattedDate.ToString()) : DateTime.UtcNow.ToString("s");
         }
 
         public static string FormatTime(string inputTime)

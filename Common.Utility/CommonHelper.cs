@@ -31,9 +31,9 @@ namespace Common.Utility
             return input;
         }
 
-        public static string ReplaceCharater(string data, string charaterRemove)
+        public static string ReplaceCharater(string data, string charaterRemove, string replacedCharacter)
         {
-            return data.Replace(charaterRemove, "");
+            return data.Replace(charaterRemove, replacedCharacter);
         }
 
         /// <summary>
